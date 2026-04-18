@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "GuardianLens.Proxy": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:60910;http://localhost:60911"
+    }
+  }
+}

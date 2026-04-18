@@ -1,0 +1,9 @@
+# Copy to C:\guardianlens\config\api-extra-env.txt on the server (do not commit real values).
+# Re-run install-services.ps1 or remote-sync-windows-services.ps1 after editing.
+#
+# Blockchain__PrivateKey=hex_private_key_from_metamask
+# Blockchain__ContractAddress=0xYourDeployedGuardianLensContract
+# Blockchain__RpcUrl=https://rpc-mumbai.maticvigil.com
+# Blockchain__ChainId=80001
+# Blockchain__Network=Polygon Mumbai
+# Blockchain__ExplorerBase=https://mumbai.polygonscan.com

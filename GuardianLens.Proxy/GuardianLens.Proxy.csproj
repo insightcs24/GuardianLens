@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>GuardianLens.Proxy</AssemblyName>
+    <RootNamespace>GuardianLens.Proxy</RootNamespace>
+    <!-- Enables running as a Windows Service -->
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- YARP — Yet Another Reverse Proxy (Microsoft official library) -->
+    <PackageReference Include="Yarp.ReverseProxy" Version="2.2.0" />
+
+    <!-- Windows Service support — lets the app run without a logged-in user -->
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

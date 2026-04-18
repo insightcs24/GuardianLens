@@ -1,0 +1,42 @@
+# .NET build output
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+publish/
+build-publish/
+
+# Database files — never commit these
+*.db
+*.db-shm
+*.db-wal
+
+# Uploaded media
+**/wwwroot/assets/
+
+# Node / React
+node_modules/
+dist/
+
+# Environment / secrets — NEVER commit these
+.env
+.env.local
+.env.production
+appsettings.Secrets.json
+*.pem
+*.ppk
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/settings.json
+*.swp
