@@ -1,0 +1,5 @@
+scrapy>=2.11.0
+Pillow>=10.0.0
+imagehash>=4.3.0
+requests>=2.31.0
+playwright>=1.40.0
